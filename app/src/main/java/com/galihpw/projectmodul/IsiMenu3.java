@@ -33,11 +33,11 @@ public class IsiMenu3 extends AppCompatActivity {
                 "- Lontong, lemper, mie basah.\n" +
                 "- Kalium Permanganat (KMNO4).\n" +
                 "\n" +
-                "- Cawan petri" +
-                "- Pipet tetes" +
-                "- Lumpang alu/pemarut\n "+
-                "- Gelas ukur, beaker glass.\n" +
-                "- Pisau, sendok.\n"
+                "- Cawan petri\n" +
+                "- Pipet tetes\n" +
+                "- Lumpang alu/pemarut\n" +
+                "- Gelas ukur, beaker glass\n" +
+                "- Pisau, sendok"
                 );
 
         //prosedur kerja
