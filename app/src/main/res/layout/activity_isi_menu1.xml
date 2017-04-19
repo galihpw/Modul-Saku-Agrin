@@ -8,7 +8,7 @@
     tools:context="com.galihpw.projectmodul.IsiMenu1">
 
     <ScrollView
-        android:layout_width="match_parent"
+        android:layout_width="368dp"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="8dp">
@@ -45,30 +45,30 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/textView2"
                     android:textSize="16sp"
-                    android:textStyle="normal|bold"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="normal|bold" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView3"
                     android:textSize="16sp"
-                    android:textStyle="normal|bold"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="normal|bold" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView4"
                     android:textSize="16sp"
-                    android:textStyle="normal|bold"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="normal|bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -86,10 +86,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/textView6"
                     android:textSize="16sp"
-                    android:textStyle="normal|bold"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="normal|bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -104,8 +104,6 @@
 
 
             </LinearLayout>
-
-
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

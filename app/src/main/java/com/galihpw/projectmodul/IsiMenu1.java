@@ -40,14 +40,13 @@ public class IsiMenu1 extends AppCompatActivity {
                 "- Lumpang alu/pemarut, kertas saring.\n" +
                 "- Spatula, krus (cawan penguap).");
 
-
         //prosedur kerja
 
         TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("3) Prosedur Kerja");
 
         TextView textView7 = (TextView) findViewById(R.id.textView7);
-        textView7.setText(" • Kupaskunyit, kemudian haluskan (tumbuk atau parut) 50 gram.\n" +
+        textView7.setText(" • Kupas kunyit, kemudian haluskan (tumbuk atau parut) 50 gram.\n" +
                 "• Tambahkan aquades 50 ml.\n" +
                 "• Ekstrak larutan kunyit menggunakan kain putih atau kertas saring hingga diperoleh filtrate kunyit.\n" +
                 "• Buat larutan boraks 20% dengan cara mencampurkan 5 g boraks ke dalam 25 ml aquades.\n" +
