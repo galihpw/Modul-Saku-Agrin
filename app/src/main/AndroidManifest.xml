@@ -23,7 +23,7 @@
         <activity android:name=".MenuActivity" />
         <activity android:name=".IsiMenu1" />
         <activity android:name=".IsiMenu2" />
-        <activity android:name=".IsiMenu3"></activity>
+        <activity android:name=".IsiMenu3"/>
     </application>
 
 </manifest>

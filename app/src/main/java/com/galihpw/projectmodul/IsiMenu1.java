@@ -2,6 +2,7 @@ package com.galihpw.projectmodul;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 public class IsiMenu1 extends AppCompatActivity {
@@ -11,10 +12,15 @@ public class IsiMenu1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isi_menu1);
 
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setHomeButtonEnabled(true);
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+
         //title
         TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("UJI BORAKS SEDERHANA\n" +
-                "Menggunakan Ekstrak Kunyit");
+        textView1.setText("UJI BORAKS SEDERHANA\n" + "Menggunakan Ekstrak Kunyit");
 
         //tujuan
 
@@ -57,5 +63,17 @@ public class IsiMenu1 extends AppCompatActivity {
                 "• Tambahkan 15 tetes filtrate kunyit ke dalam sampel uji menggunakan pipet tetes.\n" +
                 "• Amati dan catat perubahan warna yang terjadi.\n" +
                 "• Sampel makanan yang berubah menjadi merah kecoklatan setelah ditetesi filtrate kunyit diduga mengandung boraks.");
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                //Write your logic here
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
