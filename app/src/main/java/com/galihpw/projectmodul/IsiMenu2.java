@@ -28,8 +28,8 @@ public class IsiMenu2 extends AppCompatActivity {
                 "• Catat dalam form pengamatan berikut:\n");
 
         //image
-        ImageView imageView2 = (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.ujinyalaboraks);
+     /*   ImageView imageView2 = (ImageView) findViewById(R.id.imageView2);
+        imageView2.setImageResource(R.drawable.ujinyalaboraks);*/
 
     }
 }

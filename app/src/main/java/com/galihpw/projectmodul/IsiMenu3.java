@@ -51,7 +51,7 @@ public class IsiMenu3 extends AppCompatActivity {
                 "• Masukkan larutan KMNO4 dalam cawan.\n" +
                 "• Masukkan 5 gram sampel makanan (halus) yang akan diuji ke dalam cawan.\n" +
                 "• Amati perubahan yang terjadi (hingga 30 menit).\n" +
-                "• JIka warna merah jambu memudar (berkurang), diduga sampel tersebut mengandung komponen formalin.\n" +
+                "• Jika warna merah jambu memudar (berkurang), diduga sampel tersebut mengandung komponen formalin.\n" +
                 "• Catat dalam form pengamatan berikut.\n");
 
         //image
