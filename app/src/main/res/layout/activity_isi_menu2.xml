@@ -49,8 +49,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:id="@+id/imageView2"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ujinyalaboraks" />
+                    android:layout_height="wrap_content" />
 
             </LinearLayout>
     </ScrollView>
