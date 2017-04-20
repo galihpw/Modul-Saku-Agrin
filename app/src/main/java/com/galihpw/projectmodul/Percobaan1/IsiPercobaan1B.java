@@ -1,24 +1,30 @@
-package com.galihpw.projectmodul;
+package com.galihpw.projectmodul.Percobaan1;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class IsiMenu2 extends AppCompatActivity {
+import com.galihpw.projectmodul.R;
+
+public class IsiPercobaan1B extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_isi_menu2);
+        setContentView(R.layout.activity_isi_percobaan1b);
 
         //title
         TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("UJI NYALA BORAKS** (optional) ");
+        textView1.setText("Uji Nyala Boraks ");
+
+        //title
+        TextView textView2 = (TextView) findViewById(R.id.textView2);
+        textView2.setText("3) Prosedur Kerja");
 
         //konten
-        TextView textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText("• Timbang sampel makanan yang akan diuji sebanyak 5 gram.\n" +
+        TextView textView3 = (TextView) findViewById(R.id.textView3);
+        textView3.setText("• Timbang sampel makanan yang akan diuji sebanyak 5 gram.\n" +
                 "• Bakar sampel tersebut sampai terbentuk arang\n" +
                 "• Hancurkan (gerus) arang tersebut hingga halus.\n" +
                 "• Masukkan serbuk tersebut ke dalam krus(cawan penguap)\n" +
@@ -33,6 +39,6 @@ public class IsiMenu2 extends AppCompatActivity {
 
         //free space for landscape mode
         TextView textView8 = (TextView) findViewById(R.id.textView8);
-        textView8.setText("\t");
+        textView8.setText(" ");
     }
 }

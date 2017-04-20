@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
 
     android:background="@drawable/background2"
-    tools:context="com.galihpw.projectmodul.IsiMenu3">
+    tools:context="com.galihpw.projectmodul.Percobaan1.IsiPercobaan1C">
 
     <ScrollView
         android:layout_width="match_parent"
