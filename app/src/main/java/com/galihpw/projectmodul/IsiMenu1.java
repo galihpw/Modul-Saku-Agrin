@@ -62,7 +62,7 @@ public class IsiMenu1 extends AppCompatActivity {
                 "• Masukkan 10 gram sampel uji ke dalam cawan petri.\n" +
                 "• Tambahkan 15 tetes filtrate kunyit ke dalam sampel uji menggunakan pipet tetes.\n" +
                 "• Amati dan catat perubahan warna yang terjadi.\n" +
-                "• Sampel makanan yang berubah menjadi merah kecoklatan setelah ditetesi filtrate kunyit diduga mengandung boraks.");
+                "• Sampel makanan yang berubah menjadi merah kecoklatan setelah ditetesi filtrate kunyit diduga mengandung boraks.\n");
     }
 
     @Override
