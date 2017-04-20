@@ -19,7 +19,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainMenuActivity" />
         <activity android:name=".Percobaan1Activity" />
         <activity android:name=".Percobaan1.IsiPercobaan1A"/>

@@ -16,7 +16,7 @@ public class Percobaan1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
+        setContentView(R.layout.activity_percobaan1);
 
         //Menu 1
         Button bMenu1 = (Button) findViewById(R.id.bMenu1);
