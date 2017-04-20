@@ -48,7 +48,7 @@ public class IsiMenu4 extends AppCompatActivity {
                 "• Bagi masing-masing sampel menjadi 5 bagian.\n" +
                 "• Lakukan  peeling,  slicing  terhadap  semua  sampel  dan  langsung  masukkan  kedalam larutan perendam (air, Na metabisulfit, NaCl, asam sitrat).\n" +
                 "• Rendam semua sampel dalam larutan perendam selama 15 menit.\n" +
-                "• TIriskan semua sampel dan amati.\n" +
+                "• Tiriskan semua sampel dan amati.\n" +
                 "• Lakukan frying terhadap semua sampel.\n" +
                 "• Amati karakter sensori semua sampel.\n" +
                 "• Catat dalam form pengamatan berikut:");
