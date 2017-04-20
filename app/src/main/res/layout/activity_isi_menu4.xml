@@ -107,7 +107,6 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView4"
                     android:scaleType="fitStart"
-                    app:srcCompat="@drawable/penambahan"
                     android:layout_weight="0.36"
                     android:adjustViewBounds="true"/>
 
