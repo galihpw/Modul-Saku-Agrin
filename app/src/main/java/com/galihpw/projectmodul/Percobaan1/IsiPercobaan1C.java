@@ -1,23 +1,24 @@
-package com.galihpw.projectmodul;
+package com.galihpw.projectmodul.Percobaan1;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class IsiMenu3 extends AppCompatActivity {
+import com.galihpw.projectmodul.R;
+
+public class IsiPercobaan1C extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_isi_menu3);
+        setContentView(R.layout.activity_isi_percobaan1c);
 
         //title
         TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("UJI FORMALIN\n");
+        textView1.setText("Uji Formalin\n");
 
         //tujuan
-
         TextView textView2 = (TextView) findViewById(R.id.textView2);
         textView2.setText("1) Tujuan");
 
@@ -25,7 +26,6 @@ public class IsiMenu3 extends AppCompatActivity {
         textView3.setText("Mahasiswa mengetahui mekanisme pengujian formalin pada beberapa sampel produk pangan dan dapat mengidentifikasi produk pangan yang mengandung formalin.");
 
         //bahan dan alat
-
         TextView textView4 = (TextView) findViewById(R.id.textView4);
         textView4.setText("2) Bahan dan Alat");
 
@@ -33,7 +33,6 @@ public class IsiMenu3 extends AppCompatActivity {
         textView5.setText("- Baso, siomay, tahu mentah.\n" +
                 "- Lontong, lemper, mie basah.\n" +
                 "- Kalium Permanganat (KMNO4).\n" +
-                "\n" +
                 "- Cawan petri\n" +
                 "- Pipet tetes\n" +
                 "- Lumpang alu/pemarut\n" +
@@ -42,7 +41,6 @@ public class IsiMenu3 extends AppCompatActivity {
                 );
 
         //prosedur kerja
-
         TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("3) Prosedur Kerja");
 
@@ -60,6 +58,6 @@ public class IsiMenu3 extends AppCompatActivity {
 
         //free space for landscape mode
         TextView textView8 = (TextView) findViewById(R.id.textView8);
-        textView8.setText("\t");
+        textView8.setText(" ");
     }
 }

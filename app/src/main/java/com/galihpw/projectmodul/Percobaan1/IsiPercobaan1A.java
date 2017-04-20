@@ -1,16 +1,18 @@
-package com.galihpw.projectmodul;
+package com.galihpw.projectmodul.Percobaan1;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class IsiMenu1 extends AppCompatActivity {
+import com.galihpw.projectmodul.R;
+
+public class IsiPercobaan1A extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_isi_menu1);
+        setContentView(R.layout.activity_isi_percobaan1a);
 
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
@@ -20,7 +22,7 @@ public class IsiMenu1 extends AppCompatActivity {
 
         //title
         TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("UJI BORAKS SEDERHANA\n" + "Menggunakan Ekstrak Kunyit");
+        textView1.setText("Uji Boraks Sederhana\n" + "Menggunakan Ekstrak Kunyit");
 
         //tujuan
 
@@ -40,7 +42,6 @@ public class IsiMenu1 extends AppCompatActivity {
                 "- Lontong, lemper, mie basah.\n" +
                 "- Kunyit, aquades.\n" +
                 "- Methanol, H2SO4.\n" +
-                "\n" +
                 "- Cawan petri, Gelas ukur.\n" +
                 "- Pipet tetes, Kain putih/kertas saring, pisau, sendok.\n" +
                 "- Lumpang alu/pemarut, kertas saring.\n" +
