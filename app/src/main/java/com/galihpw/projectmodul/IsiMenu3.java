@@ -57,5 +57,9 @@ public class IsiMenu3 extends AppCompatActivity {
         //image
         ImageView imageView3 = (ImageView) findViewById(R.id.imageView3);
         imageView3.setImageResource(R.drawable.ujiformalin);
+
+        //free space for landscape mode
+        TextView textView8 = (TextView) findViewById(R.id.textView8);
+        textView8.setText("\t");
     }
 }

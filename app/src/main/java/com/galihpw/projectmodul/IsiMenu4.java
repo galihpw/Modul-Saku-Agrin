@@ -52,8 +52,13 @@ public class IsiMenu4 extends AppCompatActivity {
                 "• Lakukan frying terhadap semua sampel.\n" +
                 "• Amati karakter sensori semua sampel.\n" +
                 "• Catat dalam form pengamatan berikut:");
+
         //image
         ImageView imageView4 = (ImageView) findViewById(R.id.imageView4);
         imageView4.setImageResource(R.drawable.penambahan);
+
+        //free space for landscape mode
+        TextView textView8 = (TextView) findViewById(R.id.textView8);
+        textView8.setText("\t");
     }
 }
