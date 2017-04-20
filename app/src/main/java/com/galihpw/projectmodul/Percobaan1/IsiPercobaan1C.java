@@ -2,6 +2,7 @@ package com.galihpw.projectmodul.Percobaan1;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -13,6 +14,12 @@ public class IsiPercobaan1C extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isi_percobaan1c);
+
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setHomeButtonEnabled(true);
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
 
         //title
         TextView textView1 = (TextView) findViewById(R.id.textView1);
@@ -59,5 +66,17 @@ public class IsiPercobaan1C extends AppCompatActivity {
         //free space for landscape mode
         TextView textView8 = (TextView) findViewById(R.id.textView8);
         textView8.setText(" ");
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                //Write your logic here
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

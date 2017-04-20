@@ -10,9 +10,8 @@ import com.galihpw.projectmodul.Percobaan1.IsiPercobaan1A;
 import com.galihpw.projectmodul.Percobaan1.IsiPercobaan1B;
 import com.galihpw.projectmodul.Percobaan1.IsiPercobaan1C;
 import com.galihpw.projectmodul.Percobaan1.IsiPercobaan1D;
-import com.galihpw.projectmodul.Percobaan2.IsiPercobaan2;
 
-public class MenuActivity extends AppCompatActivity {
+public class Percobaan1Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +24,7 @@ public class MenuActivity extends AppCompatActivity {
         bMenu1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MenuActivity.this,IsiPercobaan1A.class);
+                Intent intent = new Intent(Percobaan1Activity.this,IsiPercobaan1A.class);
                 startActivity(intent);
             }
         });
@@ -37,7 +36,7 @@ public class MenuActivity extends AppCompatActivity {
         bMenu2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent2 = new Intent(MenuActivity.this,IsiPercobaan1B.class);
+                Intent intent2 = new Intent(Percobaan1Activity.this,IsiPercobaan1B.class);
                 startActivity(intent2);
             }
         });
@@ -49,7 +48,7 @@ public class MenuActivity extends AppCompatActivity {
         bMenu3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent3 = new Intent(MenuActivity.this,IsiPercobaan1C.class);
+                Intent intent3 = new Intent(Percobaan1Activity.this,IsiPercobaan1C.class);
                 startActivity(intent3);
             }
         });
@@ -60,9 +59,8 @@ public class MenuActivity extends AppCompatActivity {
         bMenu4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent4 = new Intent(MenuActivity.this,IsiPercobaan1D.class);
+                Intent intent4 = new Intent(Percobaan1Activity.this,IsiPercobaan1D.class);
                 startActivity(intent4);
-                finish();
             }
         });
 
@@ -72,7 +70,7 @@ public class MenuActivity extends AppCompatActivity {
         bMenuP2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent5 = new Intent(MenuActivity.this,IsiPercobaan2.class);
+                Intent intent5 = new Intent(Percobaan1Activity.this,IsiPercobaan2.class);
                 startActivity(intent5);
                 finish();
             }
