@@ -27,5 +27,16 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        Button bTentang = (Button) findViewById(R.id.bTentang);
+
+        bTentang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,AboutActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }

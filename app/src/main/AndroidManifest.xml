@@ -22,12 +22,15 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainMenuActivity" />
         <activity android:name=".Percobaan1Activity" />
-        <activity android:name=".Percobaan1.IsiPercobaan1A"/>
-        <activity android:name=".Percobaan1.IsiPercobaan1B"/>
-        <activity android:name=".Percobaan1.IsiPercobaan1C"/>
-        <activity android:name=".Percobaan1.IsiPercobaan1D"/>
-        <activity android:name=".Percobaan2.IsiPercobaan2"/>
-        <activity android:name=".Percobaan3.IsiPercobaan3"/>
+        <activity android:name=".Percobaan1.IsiPercobaan1A" />
+        <activity android:name=".Percobaan1.IsiPercobaan1B" />
+        <activity android:name=".Percobaan1.IsiPercobaan1C" />
+        <activity android:name=".Percobaan1.IsiPercobaan1D" />
+        <activity android:name=".Percobaan2.IsiPercobaan2" />
+        <activity android:name=".Percobaan3.IsiPercobaan3" />
+        <activity
+            android:name=".AboutActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

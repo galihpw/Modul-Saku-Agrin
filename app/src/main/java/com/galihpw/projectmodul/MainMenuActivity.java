@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.galihpw.projectmodul.Percobaan1.IsiPercobaan1A;
 
@@ -32,7 +33,7 @@ public class MainMenuActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Toast.makeText(MainMenuActivity.this, "Kuis", Toast.LENGTH_SHORT).show();
             }
         });
     }
