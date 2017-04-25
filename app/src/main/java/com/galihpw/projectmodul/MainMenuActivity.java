@@ -33,7 +33,8 @@ public class MainMenuActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainMenuActivity.this, "Kuis", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainMenuActivity.this,KuisActivity.class);
+                startActivity(intent);
             }
         });
     }

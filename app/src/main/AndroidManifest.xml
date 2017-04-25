@@ -19,9 +19,14 @@
         </activity>
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainMenuActivity" />
-        <activity android:name=".Percobaan1Activity" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Percobaan1Activity"
+            android:screenOrientation="portrait" />
         <activity android:name=".Percobaan1.IsiPercobaan1A" />
         <activity android:name=".Percobaan1.IsiPercobaan1B" />
         <activity android:name=".Percobaan1.IsiPercobaan1C" />
@@ -30,7 +35,12 @@
         <activity android:name=".Percobaan3.IsiPercobaan3" />
         <activity
             android:name=".AboutActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KuisActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ScoreActivity"></activity>
     </application>
 
 </manifest>

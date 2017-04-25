@@ -8,13 +8,16 @@
     tools:context="com.galihpw.projectmodul.AboutActivity">
 
     <ScrollView
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginStart="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent">
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/scrollView2"
+        tools:layout_editor_absoluteY="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -70,24 +73,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="8dp"
                 android:fontFamily="casual"
                 android:text="Pembimbing:\nDr. Sri Handayani, M.Pd.\nNIP. 196609301997032001\n\nDewi Cakrawati, S.Tp., M.Si.\nNIP. 198308242010122003"
                 android:textAlignment="center"
                 android:textColor="@android:color/background_light"
                 android:textSize="18sp"
-                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="377dp" />
-
-            <Button
-                android:id="@+id/bBack"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:text="Back"
-                android:textAlignment="center" />
 
         </LinearLayout>
     </ScrollView>
