@@ -33,5 +33,4 @@ public class Percobaan3Activity extends AppCompatActivity {
             }
         });
     }
-
 }
