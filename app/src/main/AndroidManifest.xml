@@ -46,7 +46,13 @@
         <activity android:name=".Percobaan4.IsiPercobaan4c" />
         <activity android:name=".Percobaan4.IsiPercobaan4d" />
         <activity android:name=".Percobaan4.IsiPercobaan4e" />
-        <activity android:name=".Percobaan4Activity"></activity>
+
+        <activity android:name=".Percobaan2Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Percobaan4Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Percobaan3Activity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
