@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.galihpw.projectmodul.Percobaan1.IsiPercobaan1A;
 import com.galihpw.projectmodul.Percobaan2.IsiPercobaan2;
+import com.galihpw.projectmodul.Percobaan3.IsiPercobaan3;
 
 public class MainMenuActivity extends AppCompatActivity {
 
@@ -39,6 +40,18 @@ public class MainMenuActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent2 = new Intent(MainMenuActivity.this,IsiPercobaan2.class);
                 startActivity(intent2);
+            }
+        });
+
+
+        //Percobaan 3
+        Button bPerc3 = (Button) findViewById(R.id.bPerc3);
+
+        bPerc3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent3 = new Intent(MainMenuActivity.this,IsiPercobaan3.class);
+                startActivity(intent3);
             }
         });
 
