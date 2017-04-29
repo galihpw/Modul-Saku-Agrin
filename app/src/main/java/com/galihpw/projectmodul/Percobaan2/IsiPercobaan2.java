@@ -60,14 +60,14 @@ public class IsiPercobaan2 extends AppCompatActivity {
         //tugas
         TextView textView9 = (TextView) findViewById(R.id.textView9);
         textView9.setText("• Susun pembahasan dalam laporan praktikum berdasar pertanyaan berikut ini!\n" +
-                "- Apa  yang  dimaksud  dengan  terigu  hard  flour?  Apa  hubungannya  dengan fermentasi dalam pembuatan roti?\n" +
+                "- Apa yang dimaksud dengan terigu hard flour? Apa hubungannya dengan fermentasi dalam pembuatan roti?\n" +
                 "- Apa fungsi penambahan ragi dalam pembuatan roti? Apa kandungan dari ragi tersebut?\n" +
                 "- Mengapa adonan roti harus didiamkan dalam kondisi lembab dan hangat? Apa kaitannya dengan optimalnya proses fermentasi?\n" +
-                "- Apakah  ukuran/  tinggi  adonan  roti  sebelum  dan  setelah  didiamkan(diinkubasi) berbeda? Mengapa?\n" +
-                "- Apakah  ukuran/  tinggi  roti  setelah  didiamkan  (diinkubasi) dan  setelah dipanggang berbeda? Mengapa?\n" +
+                "- Apakah  ukuran/ tinggi adonan roti sebelum dan setelah didiamkan(diinkubasi) berbeda? Mengapa?\n" +
+                "- Apakah  ukuran/ tinggi roti setelah didiamkan (diinkubasi) dan setelah dipanggang berbeda? Mengapa?\n" +
                 "- Apa fungsi penambahan margarine, telur dan susu pada pembuatan roti? Apa kaitannya dengan tekstur roti?\n" +
                 "- Bagaimana kualitas roti yang baik dan memenuhi standar (SNI)?\n" +
-                "- Buat diagram proses pembuatan roti!\n");
+                "- Buat diagram proses pembuatan roti!");
 
         //teks
         TextView textView8 = (TextView) findViewById(R.id.textView8);
@@ -78,10 +78,10 @@ public class IsiPercobaan2 extends AppCompatActivity {
         //tabel
        /* ImageView imageView5 = (ImageView) findViewById(R.id.imageView5);
         imageView5.setImageResource(R.drawable.formatpengamatan);*/
-        //free space
 
+        //free space
         TextView textView10 = (TextView) findViewById(R.id.textView10);
-        textView10.setText("\t \n");
+        textView10.setText(" \n");
     }
 
     @Override

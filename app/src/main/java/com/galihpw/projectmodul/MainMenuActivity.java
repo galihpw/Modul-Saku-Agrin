@@ -55,6 +55,17 @@ public class MainMenuActivity extends AppCompatActivity {
             }
         });
 
+        //Percobaan 4
+        Button bPerc4 = (Button) findViewById(R.id.bPerc4);
+
+        bPerc4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent4 = new Intent(MainMenuActivity.this,Percobaan4Activity.class);
+                startActivity(intent4);
+            }
+        });
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

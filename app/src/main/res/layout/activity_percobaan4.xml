@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background2"
-    tools:context="com.galihpw.projectmodul.Percobaan1Activity">
+    tools:context="com.galihpw.projectmodul.Percobaan4Activity">
 
     <!--<Button
         android:id="@+id/bMenuP2"
@@ -37,9 +37,10 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.100000024"
+        app:layout_constraintVertical_bias="1.0"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp">
+        android:layout_marginEnd="8dp"
+        app:layout_constraintHorizontal_bias="1.0">
 
         <Button
             android:id="@+id/bMenu1"
@@ -47,7 +48,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:paddingTop="20dp"
-            android:text="Uji Boraks Sederhana"
+            android:text="Pembuatan Gula Invert"
             tools:layout_editor_absoluteX="32dp"
             tools:layout_editor_absoluteY="31dp" />
 
@@ -57,7 +58,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:paddingTop="20dp"
-            android:text="Uji Nyala Boraks"
+            android:text="Pembuatan Fondant Giling"
             tools:layout_editor_absoluteX="32dp"
             tools:layout_editor_absoluteY="84dp" />
 
@@ -67,7 +68,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:paddingTop="20dp"
-            android:text="Uji Formalin"
+            android:text="Pembuatan Permen Jelly"
             tools:layout_editor_absoluteX="32dp"
             tools:layout_editor_absoluteY="138dp" />
 
@@ -77,9 +78,19 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:paddingTop="20dp"
-            android:text="Penambahan dalam Berbagai BTP"
+            android:text="Pembuatan Marshmallow"
             tools:layout_editor_absoluteX="32dp"
             tools:layout_editor_absoluteY="192dp" />
+
+        <Button
+            android:id="@+id/bMenu5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pembuatan Hard Candy"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="260dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

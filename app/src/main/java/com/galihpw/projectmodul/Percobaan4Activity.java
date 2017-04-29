@@ -7,17 +7,18 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import com.galihpw.projectmodul.Percobaan1.IsiPercobaan1A;
-import com.galihpw.projectmodul.Percobaan1.IsiPercobaan1B;
-import com.galihpw.projectmodul.Percobaan1.IsiPercobaan1C;
-import com.galihpw.projectmodul.Percobaan1.IsiPercobaan1D;
+import com.galihpw.projectmodul.Percobaan4.IsiPercobaan4a;
+import com.galihpw.projectmodul.Percobaan4.IsiPercobaan4b;
+import com.galihpw.projectmodul.Percobaan4.IsiPercobaan4c;
+import com.galihpw.projectmodul.Percobaan4.IsiPercobaan4d;
+import com.galihpw.projectmodul.Percobaan4.IsiPercobaan4e;
 
-public class Percobaan1Activity extends AppCompatActivity {
+public class Percobaan4Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_percobaan1);
+        setContentView(R.layout.activity_percobaan4);
 
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
@@ -31,7 +32,7 @@ public class Percobaan1Activity extends AppCompatActivity {
         bMenu1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Percobaan1Activity.this,IsiPercobaan1A.class);
+                Intent intent = new Intent(Percobaan4Activity.this,IsiPercobaan4a.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +44,7 @@ public class Percobaan1Activity extends AppCompatActivity {
         bMenu2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent2 = new Intent(Percobaan1Activity.this,IsiPercobaan1B.class);
+                Intent intent2 = new Intent(Percobaan4Activity.this,IsiPercobaan4b.class);
                 startActivity(intent2);
             }
         });
@@ -55,7 +56,7 @@ public class Percobaan1Activity extends AppCompatActivity {
         bMenu3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent3 = new Intent(Percobaan1Activity.this,IsiPercobaan1C.class);
+                Intent intent3 = new Intent(Percobaan4Activity.this,IsiPercobaan4c.class);
                 startActivity(intent3);
             }
         });
@@ -66,10 +67,22 @@ public class Percobaan1Activity extends AppCompatActivity {
         bMenu4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent4 = new Intent(Percobaan1Activity.this,IsiPercobaan1D.class);
+                Intent intent4 = new Intent(Percobaan4Activity.this,IsiPercobaan4d.class);
                 startActivity(intent4);
             }
         });
+
+        //Menu 5
+        Button bMenu5 = (Button) findViewById(R.id.bMenu5);
+
+        bMenu5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent4 = new Intent(Percobaan4Activity.this,IsiPercobaan4e.class);
+                startActivity(intent4);
+            }
+        });
+
 
     }
 
