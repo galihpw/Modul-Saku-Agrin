@@ -1,7 +1,10 @@
 package com.galihpw.projectmodul;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.galihpw.projectmodul.Kuis.Hasil;
@@ -41,5 +44,16 @@ public class ScoreActivity extends AppCompatActivity {
                 });
             }
         }, 0, 20);
+
+        Button bBack = (Button) findViewById(R.id.bBack);
+
+        bBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ScoreActivity.this,MainMenuActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }
