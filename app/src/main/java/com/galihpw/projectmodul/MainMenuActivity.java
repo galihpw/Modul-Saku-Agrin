@@ -38,7 +38,7 @@ public class MainMenuActivity extends AppCompatActivity {
         bPerc2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent2 = new Intent(MainMenuActivity.this,IsiPercobaan2.class);
+                Intent intent2 = new Intent(MainMenuActivity.this,Percobaan2Activity.class);
                 startActivity(intent2);
             }
         });
@@ -50,7 +50,7 @@ public class MainMenuActivity extends AppCompatActivity {
         bPerc3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent3 = new Intent(MainMenuActivity.this,IsiPercobaan3.class);
+                Intent intent3 = new Intent(MainMenuActivity.this,Percobaan3Activity.class);
                 startActivity(intent3);
             }
         });
