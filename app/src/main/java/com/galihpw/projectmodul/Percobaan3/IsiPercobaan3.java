@@ -36,7 +36,7 @@ public class IsiPercobaan3 extends AppCompatActivity {
 
         //bahan dan alat
         TextView textView4 = (TextView) findViewById(R.id.textView4);
-        textView4.setText("2) Bahan dan Alat");
+        textView4.setText("2) Bahan dan Alat ");
 
         TextView textView5 = (TextView) findViewById(R.id.textView5);
         textView5.setText("- Terigu hard flour, kuning telur, garam.\n" +
