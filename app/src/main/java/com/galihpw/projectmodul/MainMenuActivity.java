@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.galihpw.projectmodul.Percobaan1.IsiPercobaan1A;
+import com.galihpw.projectmodul.Percobaan2.IsiPercobaan2;
 
 public class MainMenuActivity extends AppCompatActivity {
 
@@ -29,6 +30,19 @@ public class MainMenuActivity extends AppCompatActivity {
             }
         });
 
+
+        //Percobaan 2
+        Button bPerc2 = (Button) findViewById(R.id.bPerc2);
+
+        bPerc2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2 = new Intent(MainMenuActivity.this,IsiPercobaan2.class);
+                startActivity(intent2);
+            }
+        });
+
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,5 +51,6 @@ public class MainMenuActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 }

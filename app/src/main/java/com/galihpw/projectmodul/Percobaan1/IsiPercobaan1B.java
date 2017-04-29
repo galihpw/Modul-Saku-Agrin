@@ -25,28 +25,46 @@ public class IsiPercobaan1B extends AppCompatActivity {
         TextView textView1 = (TextView) findViewById(R.id.textView1);
         textView1.setText("Uji Nyala Boraks ");
 
-        //title
-        TextView textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText("3) Prosedur Kerja");
+        //tujuan
 
-        //konten
+        TextView textView2 = (TextView) findViewById(R.id.textView2);
+        textView2.setText("1) Tujuan");
+
         TextView textView3 = (TextView) findViewById(R.id.textView3);
-        textView3.setText("• Timbang sampel makanan yang akan diuji sebanyak 5 gram.\n" +
-                "• Bakar sampel tersebut sampai terbentuk arang\n" +
-                "• Hancurkan (gerus) arang tersebut hingga halus.\n" +
-                "• Masukkan serbuk tersebut ke dalam krus(cawan penguap)\n" +
-                "• Tambahkan 10 tetes H2SO4 pekat dan 2 ml methanol ke dalam cawan.\n" +
-                "• Uap yang terjadi segera dibakar.\n" +
-                "• Amati nyala api yang timbul. (Nyala api yang timbul akan berwarna hijau atau biru jika mengandung boraks).\n" +
-                "• Catat dalam form pengamatan berikut:\n");
+        textView3.setText("Mahasiswa mengetahui mekanisme pengujian boraks pada beberapa sampel produk pangan dan dapat mengidentifikasi produk pangan yang mengandung boraks.");
+
+        //bahan dan alat
+
+        TextView textView4 = (TextView) findViewById(R.id.textView4);
+        textView4.setText("2) Bahan dan Alat");
+
+        TextView textView5 = (TextView) findViewById(R.id.textView5);
+        textView5.setText("- Baso, siomay, tahu mentah.\n" +
+                "- Lontong, lemper, mie basah.\n" +
+                "- Kunyit, aquades.\n" +
+                "- Methanol, H2SO4.\n" +
+                "- Cawan petri, Gelas ukur.\n" +
+                "- Pipet tetes, Kain putih/kertas saring, pisau, sendok.\n" +
+                "- Lumpang alu/pemarut, kertas saring.\n" +
+                "- Spatula, krus (cawan penguap).");
+
+        //title
+        TextView textView6 = (TextView) findViewById(R.id.textView6);
+        textView6.setText("3) Prosedur Kerja");
 
         //image
-        ImageView imageView2 = (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.ujinyalaboraks);
+        ImageView imageView = (ImageView) findViewById(R.id.imageView);
+        imageView.setImageResource(R.drawable.ip1b);
+
+        //kosong
+        TextView textView7 = (TextView) findViewById(R.id.textView7);
+        textView7.setText("\n");
+
+       //TABEL
 
         //free space for landscape mode
         TextView textView8 = (TextView) findViewById(R.id.textView8);
-        textView8.setText(" ");
+        textView8.setText("\n");
     }
 
     @Override

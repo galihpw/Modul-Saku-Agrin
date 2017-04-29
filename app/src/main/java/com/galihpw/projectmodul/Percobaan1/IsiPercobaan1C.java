@@ -51,17 +51,17 @@ public class IsiPercobaan1C extends AppCompatActivity {
         TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("3) Prosedur Kerja");
 
-        TextView textView7 = (TextView) findViewById(R.id.textView7);
-        textView7.setText("• Larutkan 2 gram  serbuk KMNO4 dalam 20 ml aquades hingga berwarna merah jambu seulas.\n" +
-                "• Masukkan larutan KMNO4 dalam cawan.\n" +
-                "• Masukkan 5 gram sampel makanan (halus) yang akan diuji ke dalam cawan.\n" +
-                "• Amati perubahan yang terjadi (hingga 30 menit).\n" +
-                "• Jika warna merah jambu memudar (berkurang), diduga sampel tersebut mengandung komponen formalin.\n" +
-                "• Catat dalam form pengamatan berikut.\n");
-
         //image
-        ImageView imageView3 = (ImageView) findViewById(R.id.imageView3);
-        imageView3.setImageResource(R.drawable.ujiformalin);
+        ImageView imageView = (ImageView) findViewById(R.id.imageView);
+        imageView.setImageResource(R.drawable.ip1c);
+
+        //kosong
+        TextView textView7 = (TextView) findViewById(R.id.textView7);
+        textView7.setText("\n");
+
+
+        //TABEL
+
 
         //free space for landscape mode
         TextView textView8 = (TextView) findViewById(R.id.textView8);
