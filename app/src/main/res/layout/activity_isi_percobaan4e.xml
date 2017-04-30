@@ -29,10 +29,19 @@
             android:weightSum="1">
 
             <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -96,6 +105,18 @@
                 android:layout_marginRight="10dp"
                 android:textSize="16sp"
                 android:textStyle="normal|bold" />
+
+            <Button
+                android:text="Tabel Pengamatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16sp"
+                android:id="@+id/button1"
+                android:textAlignment="center"
+                android:clickable="true" />
 
 
         </LinearLayout>

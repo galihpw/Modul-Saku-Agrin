@@ -1,12 +1,19 @@
 package com.galihpw.projectmodul.Percobaan4;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.galihpw.projectmodul.MainMenuActivity;
+import com.galihpw.projectmodul.Percobaan1Activity;
 import com.galihpw.projectmodul.R;
+
+import static android.R.id.button1;
 
 public class IsiPercobaan4e extends AppCompatActivity {
 
@@ -63,7 +70,22 @@ public class IsiPercobaan4e extends AppCompatActivity {
         //kosong
         TextView textView7 = (TextView) findViewById(R.id.textView7);
         textView7.setText("\n");
+
+        //Percobaan 1
+        Button button1 = (Button) findViewById(R.id.button1);
+
+
+        //format pengamatan
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(IsiPercobaan4e.this,TabelIsiPercobaan4e.class);
+                startActivity(intent);
+            }
+        });
     }
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
