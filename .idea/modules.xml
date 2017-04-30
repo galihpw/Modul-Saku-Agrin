@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Modul-Saku-Agrin.iml" filepath="$PROJECT_DIR$/Modul-Saku-Agrin.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProjectModul.iml" filepath="$PROJECT_DIR$/ProjectModul.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
