@@ -87,7 +87,8 @@
             android:label="Pembuatan Hard Candy" />
 
         <activity android:name=".Percobaan4.TabelIsiPercobaan4e"
-            android:label="Format Pengamatan "></activity>
+            android:label="Format Pengamatan"
+            android:screenOrientation="landscape"></activity>
     </application>
 
 </manifest>
