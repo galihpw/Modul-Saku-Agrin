@@ -84,7 +84,6 @@ public class IsiPercobaan2 extends AppCompatActivity {
         textView10.setText(" \n");
     }
 
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

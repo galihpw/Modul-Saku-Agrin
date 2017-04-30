@@ -16,9 +16,14 @@ public class IsiPercobaan1D extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isi_percobaan1d);
 
-        Toolbar toolbar1d = (Toolbar) findViewById(R.id.toolbar1d);
-        toolbar1d.setNavigationIcon(getResources().getDrawable(R.drawable.backwhite));
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setHomeButtonEnabled(true);
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
 
+        /*Toolbar toolbar1d = (Toolbar) findViewById(R.id.toolbar1d);
+        toolbar1d.setNavigationIcon(getResources().getDrawable(R.drawable.backwhite));*/
 
         //title
         /*TextView textView1 = (TextView) findViewById(R.id.textView1);

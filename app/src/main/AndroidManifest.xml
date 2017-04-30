@@ -37,8 +37,7 @@
         <activity android:name=".Percobaan1.IsiPercobaan1C"
             android:label="Uji Formalin" />
         <activity android:name=".Percobaan1.IsiPercobaan1D"
-            android:label="Penambahan dalam berbagai BTP"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="Penambahan dalam berbagai BTP" />
 
         <activity android:name=".Percobaan2.IsiPercobaan2"
             android:label="Fermentasi pada Pembuatan Roti"/>
