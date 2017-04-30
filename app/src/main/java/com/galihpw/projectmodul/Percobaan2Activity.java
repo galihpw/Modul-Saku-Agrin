@@ -3,6 +3,7 @@ package com.galihpw.projectmodul;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -28,9 +29,20 @@ public class Percobaan2Activity extends AppCompatActivity {
         bMenu1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Percobaan2Activity.this,IsiPercobaan2.class);
+                Intent intent = new Intent(Percobaan2Activity.this, IsiPercobaan2.class);
                 startActivity(intent);
             }
         });
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                //Write your logic here
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

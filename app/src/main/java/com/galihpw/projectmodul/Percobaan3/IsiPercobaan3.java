@@ -22,9 +22,9 @@ public class IsiPercobaan3 extends AppCompatActivity {
         }
 
         //title
-        TextView textView1 = (TextView) findViewById(R.id.textView1);
+      /*  TextView textView1 = (TextView) findViewById(R.id.textView1);
         textView1.setText("Emulsifikasi pada Pembuatan Mayonnaise\n");
-
+*/
         //tujuan
         TextView textView2 = (TextView) findViewById(R.id.textView2);
         textView2.setText("1) Tujuan");

@@ -22,9 +22,9 @@ public class IsiPercobaan2 extends AppCompatActivity {
         }
 
         //title
-        TextView textView1 = (TextView) findViewById(R.id.textView1);
+      /*  TextView textView1 = (TextView) findViewById(R.id.textView1);
         textView1.setText("Fermentasi pada Pembuatan Roti\n");
-
+*/
         //tujuan
         TextView textView2 = (TextView) findViewById(R.id.textView2);
         textView2.setText("1) Tujuan");
@@ -83,6 +83,7 @@ public class IsiPercobaan2 extends AppCompatActivity {
         TextView textView10 = (TextView) findViewById(R.id.textView10);
         textView10.setText(" \n");
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

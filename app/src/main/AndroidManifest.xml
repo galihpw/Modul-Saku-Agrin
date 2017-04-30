@@ -23,18 +23,28 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainMenuActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:label="Modul Saku Agrin" />
         <activity
             android:name=".Percobaan1Activity"
             android:screenOrientation="portrait"
             android:label="Percobaan 1"/>
 
-        <activity android:name=".Percobaan1.IsiPercobaan1A" />
-        <activity android:name=".Percobaan1.IsiPercobaan1B" />
-        <activity android:name=".Percobaan1.IsiPercobaan1C" />
-        <activity android:name=".Percobaan1.IsiPercobaan1D" />
-        <activity android:name=".Percobaan2.IsiPercobaan2" />
-        <activity android:name=".Percobaan3.IsiPercobaan3" />
+        <activity android:name=".Percobaan1.IsiPercobaan1A"
+            android:label="Uji Boraks Sederhana" />
+        <activity android:name=".Percobaan1.IsiPercobaan1B"
+            android:label="Uji Nyala Boraks"/>
+        <activity android:name=".Percobaan1.IsiPercobaan1C"
+            android:label="Uji Formalin" />
+        <activity android:name=".Percobaan1.IsiPercobaan1D"
+            android:label="Penambahan dalam berbagai BTP" />
+
+        <activity android:name=".Percobaan2.IsiPercobaan2"
+            android:label="Fermentasi pada Pembuatan Roti"/>
+
+        <activity android:name=".Percobaan3.IsiPercobaan3"
+            android:label="Emulsifikasi Pada Pembuatan Mayonnaise" />
+
         <activity
             android:name=".AboutActivity"
             android:screenOrientation="portrait"
@@ -58,11 +68,17 @@
             android:name=".Percobaan4Activity"
             android:screenOrientation="portrait"
             android:label="Percobaan 4"/>
-        <activity android:name=".Percobaan4.IsiPercobaan4a" />
-        <activity android:name=".Percobaan4.IsiPercobaan4b" />
-        <activity android:name=".Percobaan4.IsiPercobaan4c" />
-        <activity android:name=".Percobaan4.IsiPercobaan4d" />
-        <activity android:name=".Percobaan4.IsiPercobaan4e" />
+
+        <activity android:name=".Percobaan4.IsiPercobaan4a"
+            android:label="Pembuatan Gula Invert"/>
+        <activity android:name=".Percobaan4.IsiPercobaan4b"
+            android:label="Pembuatan Fondant Giling"/>
+        <activity android:name=".Percobaan4.IsiPercobaan4c"
+            android:label="Pembuatan Permen Jelly"/>
+        <activity android:name=".Percobaan4.IsiPercobaan4d"
+            android:label="Pembuatan mMrshmallow"/>
+        <activity android:name=".Percobaan4.IsiPercobaan4e"
+            android:label="Pembuatan Hard Candy"/>
 
     </application>
 

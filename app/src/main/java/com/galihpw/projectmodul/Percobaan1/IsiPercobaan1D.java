@@ -15,16 +15,16 @@ public class IsiPercobaan1D extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isi_percobaan1d);
 
-        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+       android.support.v7.app.ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setHomeButtonEnabled(true);
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
         //title
-        TextView textView1 = (TextView) findViewById(R.id.textView1);
+        /*TextView textView1 = (TextView) findViewById(R.id.textView1);
         textView1.setText("Penambahan dalam Berbagai BTP\n");
-
+*/
         //tujuan
         TextView textView2 = (TextView) findViewById(R.id.textView2);
         textView2.setText("1) Tujuan");

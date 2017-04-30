@@ -15,10 +15,16 @@ public class IsiPercobaan4d extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isi_percobaan4d);
 
-        //title
-        TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("Pembuatan Marshmallow");
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setHomeButtonEnabled(true);
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
 
+        //title
+       /* TextView textView1 = (TextView) findViewById(R.id.textView1);
+        textView1.setText("Pembuatan Marshmallow");
+*/
         //tujuan
 
         TextView textView2 = (TextView) findViewById(R.id.textView2);

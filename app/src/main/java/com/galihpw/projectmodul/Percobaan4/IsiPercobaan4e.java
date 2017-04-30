@@ -15,9 +15,15 @@ public class IsiPercobaan4e extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isi_percobaan4e);
 
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setHomeButtonEnabled(true);
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+
         //title
-        TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("Pembuatan Hard Candy");
+      /*  TextView textView1 = (TextView) findViewById(R.id.textView1);
+        textView1.setText("Pembuatan Hard Candy");*/
 
         //tujuan
 

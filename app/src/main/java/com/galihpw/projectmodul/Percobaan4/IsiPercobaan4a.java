@@ -22,8 +22,8 @@ public class IsiPercobaan4a extends AppCompatActivity {
         }
 
         //title
-        TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("Pembuatan Gula Invert");
+      /*  TextView textView1 = (TextView) findViewById(R.id.textView1);
+        textView1.setText("Pembuatan Gula Invert");*/
 
         //tujuan
 

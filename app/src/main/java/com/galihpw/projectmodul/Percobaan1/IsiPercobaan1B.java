@@ -21,9 +21,9 @@ public class IsiPercobaan1B extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        //title
+       /* //title
         TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("Uji Nyala Boraks ");
+        textView1.setText("Uji Nyala Boraks ");*/
 
         //tujuan
 
