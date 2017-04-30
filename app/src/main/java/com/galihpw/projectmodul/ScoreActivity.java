@@ -50,6 +50,8 @@ public class ScoreActivity extends AppCompatActivity {
         bBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Hasil.isi = 0;
+                Hasil.score = 0;
                 Intent intent = new Intent(ScoreActivity.this,MainMenuActivity.class);
                 startActivity(intent);
                 finish();
