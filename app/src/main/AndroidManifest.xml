@@ -26,7 +26,9 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".Percobaan1Activity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:label="Percobaan 1"/>
+
         <activity android:name=".Percobaan1.IsiPercobaan1A" />
         <activity android:name=".Percobaan1.IsiPercobaan1B" />
         <activity android:name=".Percobaan1.IsiPercobaan1C" />
@@ -39,14 +41,29 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".KuisActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Kuis"/>
+        <activity
+            android:name=".ScoreActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ScoreActivity" />
+        <activity
+            android:name=".Percobaan2Activity"
+            android:screenOrientation="portrait"
+            android:label="Percobaan 2"/>
+        <activity
+            android:name=".Percobaan3Activity"
+            android:screenOrientation="portrait"
+            android:label="Percobaan 3"/>
+        <activity
+            android:name=".Percobaan4Activity"
+            android:screenOrientation="portrait"
+            android:label="Percobaan 4"/>
         <activity android:name=".Percobaan4.IsiPercobaan4a" />
         <activity android:name=".Percobaan4.IsiPercobaan4b" />
         <activity android:name=".Percobaan4.IsiPercobaan4c" />
         <activity android:name=".Percobaan4.IsiPercobaan4d" />
         <activity android:name=".Percobaan4.IsiPercobaan4e" />
-        <activity android:name=".Percobaan4Activity"></activity>
+
     </application>
 
 </manifest>
