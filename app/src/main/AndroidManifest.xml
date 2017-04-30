@@ -76,10 +76,9 @@
         <activity android:name=".Percobaan4.IsiPercobaan4c"
             android:label="Pembuatan Permen Jelly"/>
         <activity android:name=".Percobaan4.IsiPercobaan4d"
-            android:label="Pembuatan mMrshmallow"/>
+            android:label="Pembuatan Marshmallow"/>
         <activity android:name=".Percobaan4.IsiPercobaan4e"
             android:label="Pembuatan Hard Candy"/>
 
     </application>
-
 </manifest>
