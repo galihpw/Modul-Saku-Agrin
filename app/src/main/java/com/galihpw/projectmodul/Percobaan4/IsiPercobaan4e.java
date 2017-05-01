@@ -1,19 +1,15 @@
 package com.galihpw.projectmodul.Percobaan4;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.galihpw.projectmodul.MainMenuActivity;
-import com.galihpw.projectmodul.Percobaan1Activity;
 import com.galihpw.projectmodul.R;
-
-import static android.R.id.button1;
 
 public class IsiPercobaan4e extends AppCompatActivity {
 
@@ -27,10 +23,6 @@ public class IsiPercobaan4e extends AppCompatActivity {
             actionBar.setHomeButtonEnabled(true);
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
-
-        //title
-      /*  TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("Pembuatan Hard Candy");*/
 
         //tujuan
         TextView textView2 = (TextView) findViewById(R.id.textView2);
@@ -82,7 +74,6 @@ public class IsiPercobaan4e extends AppCompatActivity {
             }
         });
     }
-
 
 
     @Override

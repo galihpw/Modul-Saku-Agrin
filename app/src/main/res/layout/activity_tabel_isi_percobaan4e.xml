@@ -332,6 +332,28 @@
 
             </TableLayout>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" \n"
+                android:textSize="18sp"
+                android:layout_margin="1dp"
+                android:layout_column="0"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                />
+
+            <Button
+                android:text="Simpan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:id="@+id/bSimpan"
+                android:textAlignment="center"
+                android:clickable="true" />
+
         </LinearLayout>
 
     </ScrollView>

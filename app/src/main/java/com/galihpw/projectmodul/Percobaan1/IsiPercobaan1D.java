@@ -1,17 +1,14 @@
 package com.galihpw.projectmodul.Percobaan1;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.galihpw.projectmodul.Percobaan2.IsiPercobaan2;
-import com.galihpw.projectmodul.Percobaan2.TabelIsiPercobaan2;
 import com.galihpw.projectmodul.R;
 
 public class IsiPercobaan1D extends AppCompatActivity {
