@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.galihpw.projectmodul.R;
 
@@ -116,6 +117,7 @@ public class TabelIsiPercobaan1b extends AppCompatActivity {
                 editor.putString(k2b6, tek2b6);
                 editor.commit();
 
+                Toast.makeText(TabelIsiPercobaan1b.this, "Menyimpan Jawaban", Toast.LENGTH_SHORT).show();
             }
         });
     }
