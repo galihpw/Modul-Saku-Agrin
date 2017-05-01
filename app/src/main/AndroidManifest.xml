@@ -89,10 +89,14 @@
             android:name=".Percobaan4.TabelIsiPercobaan4e"
             android:label="Format Pengamatan"
             android:screenOrientation="landscape" />
-
-        <activity android:name=".Percobaan2.TabelIsiPercobaan2"
+        <activity
+            android:name=".Percobaan2.TabelIsiPercobaan2"
             android:label="Format Pengamatan"
             android:screenOrientation="landscape" />
-            </application>
+
+        <activity android:name=".Percobaan1.TabelIsiPercobaan1d"
+            android:label="Format Pengamatan"
+            android:screenOrientation="landscape" />
+    </application>
 
 </manifest>

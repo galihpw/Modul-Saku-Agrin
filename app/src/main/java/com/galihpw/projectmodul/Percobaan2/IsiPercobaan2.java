@@ -74,7 +74,6 @@ public class IsiPercobaan2 extends AppCompatActivity {
                 "- Bagaimana kualitas roti yang baik dan memenuhi standar (SNI)?\n" +
                 "- Buat diagram proses pembuatan roti!");
 
-
         //free space
         TextView textView10 = (TextView) findViewById(R.id.textView10);
         textView10.setText(" ");

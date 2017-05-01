@@ -1,12 +1,17 @@
 package com.galihpw.projectmodul.Percobaan1;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.galihpw.projectmodul.Percobaan2.IsiPercobaan2;
+import com.galihpw.projectmodul.Percobaan2.TabelIsiPercobaan2;
 import com.galihpw.projectmodul.R;
 
 public class IsiPercobaan1D extends AppCompatActivity {
@@ -62,6 +67,17 @@ public class IsiPercobaan1D extends AppCompatActivity {
         //free space for landscape mode
         TextView textView8 = (TextView) findViewById(R.id.textView8);
         textView8.setText("\t");
+
+        //Percobaan 2 (Tabel keempat)
+        Button bForPeng = (Button) findViewById(R.id.bForPeng);
+        //format pengamatan
+        bForPeng.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(IsiPercobaan1D.this,TabelIsiPercobaan1d.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
