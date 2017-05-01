@@ -54,7 +54,7 @@ public class TabSoal10 extends Fragment {
 
                 Hasil.jwb[9] = rB.getText().charAt(0);
 
-                Toast.makeText(getActivity(), ""+Hasil.jwb[9], Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Tap Selesai", Toast.LENGTH_SHORT).show();
             }
         });
         return rootView;
