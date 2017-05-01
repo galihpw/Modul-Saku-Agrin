@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.galihpw.projectmodul.R;
 
@@ -16,7 +17,6 @@ public class TabelIsiPercobaan1d extends AppCompatActivity {
     EditText ek1b11,ek2b11,ek1b12,ek2b12,ek1b14,ek2b14,ek1b15,ek2b15,ek1b16,ek2b16,ek1b17,ek2b17,ek1b18,ek2b18,ek1b19,ek2b19,ek1b20,ek2b20;
     EditText ek1b21,ek2b21,ek1b22,ek2b22,ek1b23,ek2b23,ek1b24,ek2b24,ek1b25,ek2b25,ek1b26,ek2b26,ek1b27,ek2b27,ek1b28,ek2b28,ek1b29,ek2b29,ek1b30,ek2b30;
     EditText ek1b31,ek2b31,ek1b32,ek2b32,ek1b33,ek2b33;
-
     Button simpan;
 
     public static final String MyPREFERENCES = "MyPrefs" ;
@@ -464,6 +464,8 @@ public class TabelIsiPercobaan1d extends AppCompatActivity {
                         editor.putString(k1b33, tek1b33);
                         editor.putString(k2b33, tek2b33);
                         editor.commit();
+
+                        Toast.makeText(TabelIsiPercobaan1d.this, "Menyimpan Jawaban", Toast.LENGTH_SHORT).show();
                     }
 
               });
