@@ -24,9 +24,6 @@ public class IsiPercobaan1C extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-     /*   //title
-        TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("Uji Formalin\n");*/
 
         //tujuan
         TextView textView2 = (TextView) findViewById(R.id.textView2);
@@ -66,7 +63,7 @@ public class IsiPercobaan1C extends AppCompatActivity {
         TextView textView8 = (TextView) findViewById(R.id.textView8);
         textView8.setText(" ");
 
-        //Percobaan 3 (Tabel ketiga)
+        //Percobaan 2 (Tabel kedua)
         Button bForPeng = (Button) findViewById(R.id.bForPeng);
         //format pengamatan
         bForPeng.setOnClickListener(new View.OnClickListener() {

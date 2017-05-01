@@ -106,6 +106,19 @@
                     android:textSize="16sp"
                     android:textStyle="normal|bold" />
 
+
+                <Button
+                    android:text="Format Pengamatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="60dp"
+                    android:textSize="16sp"
+                    android:id="@+id/bForPeng"
+                    android:textAlignment="center"
+                    android:clickable="true" />
+
             </LinearLayout>
     </ScrollView>
 </RelativeLayout>

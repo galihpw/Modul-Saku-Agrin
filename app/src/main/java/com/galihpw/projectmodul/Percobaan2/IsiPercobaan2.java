@@ -26,10 +26,6 @@ public class IsiPercobaan2 extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        //title
-      /*  TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("Fermentasi pada Pembuatan Roti\n");
-*/
         //tujuan
         TextView textView2 = (TextView) findViewById(R.id.textView2);
         textView2.setText("1) Tujuan");

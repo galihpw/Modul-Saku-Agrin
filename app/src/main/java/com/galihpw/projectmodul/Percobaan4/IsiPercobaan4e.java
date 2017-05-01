@@ -33,7 +33,6 @@ public class IsiPercobaan4e extends AppCompatActivity {
         textView1.setText("Pembuatan Hard Candy");*/
 
         //tujuan
-
         TextView textView2 = (TextView) findViewById(R.id.textView2);
         textView2.setText("1) Tujuan");
 

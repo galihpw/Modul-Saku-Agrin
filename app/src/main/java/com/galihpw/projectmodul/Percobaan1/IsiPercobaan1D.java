@@ -27,13 +27,6 @@ public class IsiPercobaan1D extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        /*Toolbar toolbar1d = (Toolbar) findViewById(R.id.toolbar1d);
-        toolbar1d.setNavigationIcon(getResources().getDrawable(R.drawable.backwhite));*/
-
-        //title
-        /*TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("Penambahan dalam Berbagai BTP\n");
-*/
         //tujuan
         TextView textView2 = (TextView) findViewById(R.id.textView2);
         textView2.setText("1) Tujuan");

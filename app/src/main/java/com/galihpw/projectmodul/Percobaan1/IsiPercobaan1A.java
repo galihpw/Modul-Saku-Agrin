@@ -21,9 +21,6 @@ public class IsiPercobaan1A extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-       /* //title
-        TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("Uji Boraks Sederhana\n" + "Menggunakan Ekstrak Kunyit");*/
 
         //tujuan
 

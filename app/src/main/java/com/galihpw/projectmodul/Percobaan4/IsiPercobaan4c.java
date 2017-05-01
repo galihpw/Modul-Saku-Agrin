@@ -21,10 +21,6 @@ public class IsiPercobaan4c extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        //title
-     /*   TextView textView1 = (TextView) findViewById(R.id.textView1);
-        textView1.setText("Pembuatan Permen Jelly");*/
-
         //tujuan
 
         TextView textView2 = (TextView) findViewById(R.id.textView2);
