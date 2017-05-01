@@ -85,6 +85,7 @@
         <activity
             android:name=".Percobaan4.IsiPercobaan4e"
             android:label="Pembuatan Hard Candy" />
+
         <activity
             android:name=".Percobaan4.TabelIsiPercobaan4e"
             android:label="Format Pengamatan"
@@ -93,10 +94,15 @@
             android:name=".Percobaan2.TabelIsiPercobaan2"
             android:label="Format Pengamatan"
             android:screenOrientation="landscape" />
-
-        <activity android:name=".Percobaan1.TabelIsiPercobaan1d"
+        <activity
+            android:name=".Percobaan1.TabelIsiPercobaan1d"
             android:label="Format Pengamatan"
             android:screenOrientation="landscape" />
+        <activity android:name=".Percobaan1.TabelIsiPercobaan1c"
+            android:label="Format Pengamatan"
+            android:screenOrientation="landscape">
+
+        </activity>
     </application>
 
 </manifest>

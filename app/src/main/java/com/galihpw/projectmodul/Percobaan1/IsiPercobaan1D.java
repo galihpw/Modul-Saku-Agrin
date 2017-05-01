@@ -68,7 +68,7 @@ public class IsiPercobaan1D extends AppCompatActivity {
         TextView textView8 = (TextView) findViewById(R.id.textView8);
         textView8.setText("\t");
 
-        //Percobaan 2 (Tabel keempat)
+        //Percobaan 3 (Tabel ketiga)
         Button bForPeng = (Button) findViewById(R.id.bForPeng);
         //format pengamatan
         bForPeng.setOnClickListener(new View.OnClickListener() {
