@@ -55,7 +55,7 @@ public class TabSoal2 extends Fragment {
 
                 Hasil.jwb[1] = rB.getText().charAt(0);
 
-                Toast.makeText(getActivity(), ""+Hasil.jwb[1], Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Swipe ke kanan", Toast.LENGTH_SHORT).show();
             }
         });
         return rootView;
