@@ -59,6 +59,31 @@ public class TabelIsiPercobaan1b extends AppCompatActivity {
         simpan = (Button) findViewById(R.id.bSimpan);
         sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
 
+        String gek1b1 = sharedpreferences.getString("k1b1", "No name defined");
+        String gek2b1 = sharedpreferences.getString("k2b1", "No name defined");
+        String gek1b2 = sharedpreferences.getString("k1b2", "No name defined");
+        String gek2b2 = sharedpreferences.getString("k2b2", "No name defined");
+        String gek1b3 = sharedpreferences.getString("k1b3", "No name defined");
+        String gek2b3 = sharedpreferences.getString("k2b3", "No name defined");
+        String gek1b4 = sharedpreferences.getString("k1b4", "No name defined");
+        String gek2b4 = sharedpreferences.getString("k2b4", "No name defined");
+        String gek1b5 = sharedpreferences.getString("k1b5", "No name defined");
+        String gek2b5 = sharedpreferences.getString("k2b5", "No name defined");
+        String gek1b6 = sharedpreferences.getString("k1b6", "No name defined");
+        String gek2b6 = sharedpreferences.getString("k2b6", "No name defined");
+        ek1b1.setText(gek1b1);
+        ek2b1.setText(gek2b1);
+        ek1b2.setText(gek1b2);
+        ek2b2.setText(gek2b2);
+        ek1b3.setText(gek1b3);
+        ek2b3.setText(gek2b3);
+        ek1b4.setText(gek1b4);
+        ek2b4.setText(gek2b4);
+        ek1b5.setText(gek1b5);
+        ek2b5.setText(gek2b5);
+        ek1b6.setText(gek1b6);
+        ek2b6.setText(gek2b6);
+
         simpan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
