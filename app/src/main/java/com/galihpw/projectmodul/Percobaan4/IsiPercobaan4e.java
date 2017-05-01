@@ -71,12 +71,11 @@ public class IsiPercobaan4e extends AppCompatActivity {
         TextView textView7 = (TextView) findViewById(R.id.textView7);
         textView7.setText("\n");
 
-        //Percobaan 1
-        Button button1 = (Button) findViewById(R.id.button1);
-
+        //Percobaan 4 (Tabel kelima)
+        Button bForPeng = (Button) findViewById(R.id.bForPeng);
 
         //format pengamatan
-        button1.setOnClickListener(new View.OnClickListener() {
+        bForPeng.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(IsiPercobaan4e.this,TabelIsiPercobaan4e.class);

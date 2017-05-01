@@ -117,6 +117,7 @@
                     />
 
                 <EditText
+                    android:id="@+id/etkol1bar1"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:inputType="textMultiLine"
@@ -130,6 +131,7 @@
                     />
 
                 <EditText
+                    android:id="@+id/etkol2bar1"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:inputType="textMultiLine"
@@ -163,6 +165,7 @@
                     />
 
                 <EditText
+                    android:id="@+id/etkol1bar2"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:textAppearance="?android:attr/textAppearanceLarge"
@@ -175,6 +178,7 @@
                     />
 
                 <EditText
+                    android:id="@+id/etkol2bar2"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:textAppearance="?android:attr/textAppearanceLarge"
@@ -207,11 +211,12 @@
                     />
 
                 <EditText
+                    android:id="@+id/etkol1bar3"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:hint=" .......... "
-                    android:textSize="12sp"
+                    android:textSize="13sp"
                     android:layout_margin="1dp"
                     android:layout_column="1"
                     android:background="#FFFFFF"
@@ -219,6 +224,7 @@
                     />
 
                 <EditText
+                    android:id="@+id/etkol2bar3"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:textAppearance="?android:attr/textAppearanceLarge"
@@ -231,6 +237,7 @@
             </TableRow>
 
                 <TableRow
+
                     android:background="#000000"
                     android:layout_width="fill_parent"
                     android:layout_height="0dp"
@@ -251,6 +258,7 @@
                         />
 
                     <EditText
+                        android:id="@+id/etkol1bar4"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -263,6 +271,7 @@
                         />
 
                     <EditText
+                        android:id="@+id/etkol2bar4"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -295,6 +304,7 @@
                         />
 
                     <EditText
+                        android:id="@+id/etkol1bar5"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -307,6 +317,7 @@
                         />
 
                     <EditText
+                        android:id="@+id/etkol2bar5"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:textAppearance="?android:attr/textAppearanceLarge"
