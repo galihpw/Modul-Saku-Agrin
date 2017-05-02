@@ -503,7 +503,6 @@
                         android:layout_column="2" />
                 </TableRow>
 
-
             </TableLayout>
 
             <TextView
