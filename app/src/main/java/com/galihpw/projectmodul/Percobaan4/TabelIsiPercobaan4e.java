@@ -2,15 +2,14 @@ package com.galihpw.projectmodul.Percobaan4;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.galihpw.projectmodul.Percobaan1.TabelIsiPercobaan1c;
 import com.galihpw.projectmodul.R;
 
 public class TabelIsiPercobaan4e extends AppCompatActivity {
@@ -56,16 +55,16 @@ public class TabelIsiPercobaan4e extends AppCompatActivity {
         simpan = (Button) findViewById(R.id.bSimpan);
         sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
 
-        String gek1b1 = sharedpreferences.getString("k1b1", "No name defined");
-        String gek2b1 = sharedpreferences.getString("k2b1", "No name defined");
-        String gek1b2 = sharedpreferences.getString("k1b2", "No name defined");
-        String gek2b2 = sharedpreferences.getString("k2b2", "No name defined");
-        String gek1b3 = sharedpreferences.getString("k1b3", "No name defined");
-        String gek2b3 = sharedpreferences.getString("k2b3", "No name defined");
-        String gek1b4 = sharedpreferences.getString("k1b4", "No name defined");
-        String gek2b4 = sharedpreferences.getString("k2b4", "No name defined");
-        String gek1b5 = sharedpreferences.getString("k1b5", "No name defined");
-        String gek2b5 = sharedpreferences.getString("k2b5", "No name defined");
+        String gek1b1 = sharedpreferences.getString("k1b1", "........");
+        String gek2b1 = sharedpreferences.getString("k2b1", "........");
+        String gek1b2 = sharedpreferences.getString("k1b2", "........");
+        String gek2b2 = sharedpreferences.getString("k2b2", "........");
+        String gek1b3 = sharedpreferences.getString("k1b3", "........");
+        String gek2b3 = sharedpreferences.getString("k2b3", "........");
+        String gek1b4 = sharedpreferences.getString("k1b4", "........");
+        String gek2b4 = sharedpreferences.getString("k2b4", "........");
+        String gek1b5 = sharedpreferences.getString("k1b5", "........");
+        String gek2b5 = sharedpreferences.getString("k2b5", "........");
         ek1b1.setText(gek1b1);
         ek2b1.setText(gek2b1);
         ek1b2.setText(gek1b2);

@@ -55,16 +55,16 @@ public class TabelIsiPercobaan2 extends AppCompatActivity {
         simpan = (Button) findViewById(R.id.bSimpan);
         sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
 
-        String gek1b1 = sharedpreferences.getString("k1b1", "No name defined");
-        String gek1b2 = sharedpreferences.getString("k1b2", "No name defined");
-        String gek1b3 = sharedpreferences.getString("k1b3", "No name defined");
-        String gek1b4 = sharedpreferences.getString("k1b4", "No name defined");
-        String gek1b5 = sharedpreferences.getString("k1b5", "No name defined");
-        String gek1b6 = sharedpreferences.getString("k1b6", "No name defined");
-        String gek1b7 = sharedpreferences.getString("k1b7", "No name defined");
-        String gek1b8 = sharedpreferences.getString("k1b8", "No name defined");
-        String gek1b9 = sharedpreferences.getString("k1b9", "No name defined");
-        String gek1b10 = sharedpreferences.getString("k1b10", "No name defined");
+        String gek1b1 = sharedpreferences.getString("k1b1", "........");
+        String gek1b2 = sharedpreferences.getString("k1b2", "........");
+        String gek1b3 = sharedpreferences.getString("k1b3", "........");
+        String gek1b4 = sharedpreferences.getString("k1b4", "........");
+        String gek1b5 = sharedpreferences.getString("k1b5", "........");
+        String gek1b6 = sharedpreferences.getString("k1b6", "........");
+        String gek1b7 = sharedpreferences.getString("k1b7", "........");
+        String gek1b8 = sharedpreferences.getString("k1b8", "........");
+        String gek1b9 = sharedpreferences.getString("k1b9", "........");
+        String gek1b10 = sharedpreferences.getString("k1b10", "........");
 
         ek1b1.setText(gek1b1);
         ek1b2.setText(gek1b2);
@@ -111,9 +111,7 @@ public class TabelIsiPercobaan2 extends AppCompatActivity {
                 Toast.makeText(TabelIsiPercobaan2.this, "Menyimpan Jawaban", Toast.LENGTH_SHORT).show();
             }
         });
-
     }
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
