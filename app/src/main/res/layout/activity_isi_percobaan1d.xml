@@ -128,7 +128,5 @@
                     android:clickable="true" />
 
             </LinearLayout>
-
     </ScrollView>
-
 </RelativeLayout>

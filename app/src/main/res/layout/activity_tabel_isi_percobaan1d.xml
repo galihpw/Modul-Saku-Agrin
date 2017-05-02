@@ -1785,17 +1785,17 @@
                 android:background="#FFFFFF"
                 android:gravity="center"
                 />
-        </LinearLayout>
 
-        <Button
-            android:text="Simpan"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:textSize="16sp"
-            android:id="@+id/bSimpan"
-            android:textAlignment="center"
-            android:clickable="true" />
+            <Button
+                android:text="Simpan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:id="@+id/bSimpan"
+                android:textAlignment="center"
+                android:clickable="true" />
+        </LinearLayout>
 
     </ScrollView>
 
