@@ -12,6 +12,9 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 
+import com.galihpw.projectmodul.Percobaan2.IsiPercobaan2;
+import com.galihpw.projectmodul.Percobaan3.IsiPercobaan3;
+
 public class MainMenuActivity extends AppCompatActivity {
 
     @Override
@@ -43,7 +46,7 @@ public class MainMenuActivity extends AppCompatActivity {
         bPerc2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent2 = new Intent(MainMenuActivity.this,Percobaan2Activity.class);
+                Intent intent2 = new Intent(MainMenuActivity.this, IsiPercobaan2.class);
                 startActivity(intent2);
             }
         });
@@ -60,7 +63,7 @@ public class MainMenuActivity extends AppCompatActivity {
         bPerc3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent3 = new Intent(MainMenuActivity.this,Percobaan3Activity.class);
+                Intent intent3 = new Intent(MainMenuActivity.this, IsiPercobaan3.class);
                 startActivity(intent3);
             }
         });

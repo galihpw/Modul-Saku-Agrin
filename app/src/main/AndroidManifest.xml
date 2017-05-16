@@ -59,14 +59,6 @@
             android:name=".ScoreActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Percobaan2Activity"
-            android:label="Percobaan 2"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Percobaan3Activity"
-            android:label="Percobaan 3"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".Percobaan4Activity"
             android:label="Percobaan 4"
             android:screenOrientation="portrait" />
