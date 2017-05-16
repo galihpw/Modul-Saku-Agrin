@@ -1,8 +1,12 @@
 package com.galihpw.projectmodul;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.graphics.Typeface;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.text.Html;
+import android.text.SpannableString;
+import android.text.style.StyleSpan;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -73,7 +77,12 @@ public class Percobaan4Activity extends AppCompatActivity {
         });
 
         //Menu 5
+
+        String tempString="Copyright";
         Button bMenu5 = (Button) findViewById(R.id.bMenu5);
+        SpannableString spanString = new SpannableString(tempString);
+        spanString.setSpan(new StyleSpan(Typeface.BOLD), 0, spanString.length(), 0);
+        bMenu5.setText(Html.fromHtml("PEMBUATAN <i>HARD CANDY</i>"));
 
         bMenu5.setOnClickListener(new View.OnClickListener() {
             @Override

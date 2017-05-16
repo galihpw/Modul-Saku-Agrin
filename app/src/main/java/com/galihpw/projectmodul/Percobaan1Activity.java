@@ -1,8 +1,10 @@
 package com.galihpw.projectmodul;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.text.Html;
+import android.text.Spanned;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -24,6 +26,8 @@ public class Percobaan1Activity extends AppCompatActivity {
             actionBar.setHomeButtonEnabled(true);
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
+
+        Spanned text = Html.fromHtml("Uji <b>Boraks</b> <i>Sederhana</i>");
 
         //Menu 1
         Button bMenu1 = (Button) findViewById(R.id.bMenu1);

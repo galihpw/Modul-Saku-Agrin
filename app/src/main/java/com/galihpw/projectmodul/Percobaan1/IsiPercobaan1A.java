@@ -24,7 +24,7 @@ public class IsiPercobaan1A extends AppCompatActivity {
         //tujuan
 
         TextView textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText("1) Tujuan");
+        textView2.setText("1) Tujuan"); 
 
         TextView textView3 = (TextView) findViewById(R.id.textView3);
         textView3.setText("Mahasiswa mengetahui mekanisme pengujian boraks pada beberapa sampel produk pangan dan dapat mengidentifikasi produk pangan yang mengandung boraks.");
