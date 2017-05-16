@@ -4,7 +4,7 @@
     <item>
         <bitmap
             android:gravity="fill"
-            android:src="@drawable/background1" />
+            android:src="@drawable/newbg" />
     </item>
 
 </layer-list>

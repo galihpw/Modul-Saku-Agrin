@@ -17,7 +17,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:id="@+id/scrollView2"
-        tools:layout_editor_absoluteY="8dp">
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -26,21 +27,11 @@
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="38dp">
 
-            <TextView
-                android:id="@+id/textView"
+            <ImageView
+                android:id="@+id/imageView2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="10dp"
-                android:fontFamily="casual"
-                android:text="Modul Saku Agrin"
-                android:textAlignment="center"
-                android:textColor="@android:color/background_light"
-                android:textSize="24sp"
-                android:typeface="normal"
-                tools:layout_editor_absoluteX="95dp"
-                tools:layout_editor_absoluteY="8dp" />
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/upilogo" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -63,9 +54,7 @@
                 android:text="Oleh\nAchmad Leksono C.S.R\n1105913"
                 android:textAlignment="center"
                 android:textColor="@android:color/background_light"
-                android:textSize="18sp"
-                tools:layout_editor_absoluteX="101dp"
-                tools:layout_editor_absoluteY="276dp" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -78,9 +67,33 @@
                 android:text="Pembimbing:\nDr. Sri Handayani, M.Pd.\nNIP. 196609301997032001\n\nDewi Cakrawati, S.Tp., M.Si.\nNIP. 198308242010122003"
                 android:textAlignment="center"
                 android:textColor="@android:color/background_light"
-                android:textSize="18sp"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="377dp" />
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="casual"
+                android:text="DAFTAR PUSAKA"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="casual"
+                android:text="Nuramalia, Mustika. 2017. Pedoman Praktikum : Teknologi Pengolahan Pangan. Bandung : Program Studi Pendidikan Teknologi Agroindustri UPI."
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"/>
 
         </LinearLayout>
     </ScrollView>
