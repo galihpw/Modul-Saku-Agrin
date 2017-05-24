@@ -60,7 +60,8 @@ public class IsiPercobaan4c extends AppCompatActivity {
 
         //image
         ImageView imageView = (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.ip4c);
+        Glide.with(this).load(R.drawable.ip4c).into(imageView);
+
 
         //kosong
         TextView textView7 = (TextView) findViewById(R.id.textView7);

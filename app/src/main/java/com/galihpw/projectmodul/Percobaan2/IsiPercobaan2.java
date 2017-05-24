@@ -57,7 +57,7 @@ public class IsiPercobaan2 extends AppCompatActivity {
         //prosedur kerja
 
         ImageView imageView = (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.ip2);
+        Glide.with(this).load(R.drawable.ip2).into(imageView);
 
         //kosong
         TextView textView7 = (TextView) findViewById(R.id.textView7);
