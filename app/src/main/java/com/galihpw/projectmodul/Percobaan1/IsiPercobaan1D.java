@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.galihpw.projectmodul.R;
 
 public class IsiPercobaan1D extends AppCompatActivity {
@@ -41,6 +42,12 @@ public class IsiPercobaan1D extends AppCompatActivity {
                 "- Aquades.\n" +
                 "- Natrium Metabisulfit\n" +
                 "- Wajan, pisau, talenan.");
+
+
+
+        //gambar
+        ImageView imageView0 = (ImageView) findViewById(R.id.imageView0);
+        Glide.with(this).load(R.drawable.t1d).into(imageView0);
 
         //prosedur kerja
         TextView textView6 = (TextView) findViewById(R.id.textView6);

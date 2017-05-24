@@ -1,11 +1,12 @@
 package com.galihpw.projectmodul.Percobaan4;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.galihpw.projectmodul.R;
 
 public class IsiPercobaan4a extends AppCompatActivity {
@@ -47,6 +48,11 @@ public class IsiPercobaan4a extends AppCompatActivity {
                 "- Kertas roti, wadah.\n" +
                 "- Kompor, pengaduk, cetakan loyang.\n " +
                 "- Stik loli, neraca, spatula.");
+
+
+        //gambar
+        ImageView imageView0 = (ImageView) findViewById(R.id.imageView0);
+        Glide.with(this).load(R.drawable.t4a).into(imageView0);
 
         //prosedur kerja gula invert
         TextView textView6 = (TextView) findViewById(R.id.textView6);

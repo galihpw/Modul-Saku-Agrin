@@ -1,14 +1,15 @@
 package com.galihpw.projectmodul.Percobaan1;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.galihpw.projectmodul.R;
 
 public class IsiPercobaan1C extends AppCompatActivity {
@@ -46,6 +47,11 @@ public class IsiPercobaan1C extends AppCompatActivity {
                 "- Gelas ukur, beaker glass\n" +
                 "- Pisau, sendok"
                 );
+
+
+        //gambar
+        ImageView imageView0 = (ImageView) findViewById(R.id.imageView0);
+        Glide.with(this).load(R.drawable.t1c).into(imageView0);
 
         //prosedur kerja
         TextView textView6 = (TextView) findViewById(R.id.textView6);

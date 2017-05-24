@@ -1,11 +1,12 @@
 package com.galihpw.projectmodul.Percobaan3;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.galihpw.projectmodul.R;
 
 public class IsiPercobaan3 extends AppCompatActivity {
@@ -41,12 +42,16 @@ public class IsiPercobaan3 extends AppCompatActivity {
                 "- Neraca, sendok/garpu, wadah.\n" +
                 "- Mixer/pengocok telur.");
 
+
+        //gambar
+        ImageView imageView0 = (ImageView) findViewById(R.id.imageView0);
+        Glide.with(this).load(R.drawable.t3).into(imageView0);
+
         //bahan dan alat
         TextView textView6 = (TextView) findViewById(R.id.textView6);
         textView6.setText("3) Prosedur Kerja");
 
         //prosedur kerja
-
         ImageView imageView = (ImageView) findViewById(R.id.imageView);
         imageView.setImageResource(R.drawable.ip3);
 

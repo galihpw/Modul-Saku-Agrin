@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.galihpw.projectmodul.R;
 
 public class IsiPercobaan2 extends AppCompatActivity {
@@ -42,6 +43,12 @@ public class IsiPercobaan2 extends AppCompatActivity {
                 "- Margarine/shortening, gula.\n" +
                 "- Ragi roti instan, susu bubuk.\n" +
                 "- Oven, loyang, kain basah, baskom.");
+
+
+
+        //gambar
+        ImageView imageView0 = (ImageView) findViewById(R.id.imageView0);
+        Glide.with(this).load(R.drawable.t2).into(imageView0);
 
         //bahan dan alat
         TextView textView6 = (TextView) findViewById(R.id.textView6);

@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.galihpw.projectmodul.R;
 
 public class IsiPercobaan1B extends AppCompatActivity {
@@ -46,6 +47,11 @@ public class IsiPercobaan1B extends AppCompatActivity {
                 "- Pipet tetes, Kain putih/kertas saring, pisau, sendok.\n" +
                 "- Lumpang alu/pemarut, kertas saring.\n" +
                 "- Spatula, krus (cawan penguap).");
+
+
+        //gambar
+        ImageView imageView0 = (ImageView) findViewById(R.id.imageView0);
+        Glide.with(this).load(R.drawable.t1b).into(imageView0);
 
         //title
         TextView textView6 = (TextView) findViewById(R.id.textView6);
