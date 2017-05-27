@@ -15,13 +15,15 @@ import java.util.TimerTask;
 public class ScoreActivity extends AppCompatActivity {
 
     int i = 0;
-    TextView tScore;
+    TextView tScore, tBenar, tSalah;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score);
 
+        tBenar = (TextView) findViewById(R.id.tBenar);
+        tSalah = (TextView) findViewById(R.id.tSalah);
         tScore = (TextView) findViewById(R.id.tScore);
 
         final Timer T=new Timer();
@@ -36,6 +38,8 @@ public class ScoreActivity extends AppCompatActivity {
                         tScore.setText(""+i);
 
                         if(i == Hasil.score){
+                            tBenar.setText(tBenar.getText() + "\n" + (Hasil.score/10));
+                            tSalah.setText(tSalah.getText() + "\n" + (10 - (Hasil.score/10)));
                             T.cancel();
                         }
 

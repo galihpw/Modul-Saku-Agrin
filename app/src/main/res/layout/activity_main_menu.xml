@@ -72,6 +72,6 @@
         app:backgroundTint="@android:color/holo_green_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:srcCompat="?attr/actionModePasteDrawable" />
+        app:srcCompat="@drawable/kuis" />
 
 </android.support.constraint.ConstraintLayout>
