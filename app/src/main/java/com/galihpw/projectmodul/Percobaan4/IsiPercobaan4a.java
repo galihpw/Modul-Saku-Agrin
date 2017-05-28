@@ -63,8 +63,8 @@ public class IsiPercobaan4a extends AppCompatActivity {
         Glide.with(this).load(R.drawable.ip4a).into(imageView);
 
         //kosong
-        TextView textView7 = (TextView) findViewById(R.id.textView7);
-        textView7.setText("\n");
+       /* TextView textView7 = (TextView) findViewById(R.id.textView7);
+        textView7.setText("\n");*/
     }
 
     @Override

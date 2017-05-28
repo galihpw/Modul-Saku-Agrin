@@ -64,10 +64,9 @@ public class IsiPercobaan4e extends AppCompatActivity {
         ImageView imageView = (ImageView) findViewById(R.id.imageView);
         Glide.with(this).load(R.drawable.ip4e).into(imageView);
 
-
         //kosong
-        TextView textView7 = (TextView) findViewById(R.id.textView7);
-        textView7.setText("\n");
+      /*  TextView textView7 = (TextView) findViewById(R.id.textView7);
+        textView7.setText("\n");*/
 
         //Percobaan 4 (Tabel kelima)
         Button bForPeng = (Button) findViewById(R.id.bForPeng);

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.galihpw.projectmodul">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -73,6 +75,7 @@
             android:label="Pembuatan Permen Jelly" />
         <activity
             android:name=".Percobaan4.IsiPercobaan4d"
+            android:configChanges="orientation|screenSize"
             android:label="Pembuatan Marshmallow" />
         <activity
             android:name=".Percobaan4.IsiPercobaan4e"

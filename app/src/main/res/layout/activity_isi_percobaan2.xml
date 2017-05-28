@@ -21,7 +21,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/background_light"
-            android:alpha="0.925"
             android:weightSum="1"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
@@ -117,25 +116,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView9"
-                android:textSize="17sp"
-                android:layout_marginTop="5dp"
-                android:textStyle="normal|bold"
-                android:layout_marginBottom="10dp"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView8"
-                android:textSize="17sp"
-                android:layout_marginTop="5dp"
-                android:textStyle="normal|bold"
-                android:layout_marginBottom="10dp"
-                android:textAlignment="center" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView10"
                 android:textSize="17sp"
                 android:layout_marginTop="5dp"
                 android:textStyle="normal|bold"

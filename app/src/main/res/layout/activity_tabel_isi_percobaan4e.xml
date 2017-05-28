@@ -336,7 +336,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=" \n"
+                android:text=" "
                 android:textSize="18sp"
                 android:layout_margin="1dp"
                 android:layout_column="0"

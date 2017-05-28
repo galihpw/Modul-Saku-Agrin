@@ -1,5 +1,7 @@
-package com.galihpw.projectmodul.Percobaan4;
+ package com.galihpw.projectmodul.Percobaan4;
 
+import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
@@ -8,8 +10,12 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.galihpw.projectmodul.R;
+import com.github.rtoshiro.view.video.FullscreenVideoLayout;
+
+import java.io.IOException;
 
 public class IsiPercobaan4d extends AppCompatActivity {
+    FullscreenVideoLayout videoLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,10 +67,24 @@ public class IsiPercobaan4d extends AppCompatActivity {
         ImageView imageView = (ImageView) findViewById(R.id.imageView);
         Glide.with(this).load(R.drawable.ip4d).into(imageView);
 
+        TextView textView8 = (TextView) findViewById(R.id.textView8);
+        textView8.setText("Video Pembuatan Marshmallow");
+
+        //video
+        videoLayout = (FullscreenVideoLayout) findViewById(R.id.videoview);
+        videoLayout.setActivity(this);
+
+        Uri videoUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.marsh);
+        try {
+            videoLayout.setVideoURI(videoUri);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         //kosong
-        TextView textView7 = (TextView) findViewById(R.id.textView7);
-        textView7.setText("\n");
+      /*  TextView textView7 = (TextView) findViewById(R.id.textView7);
+        textView7.setText("\n");*/
     }
 
     @Override
@@ -77,5 +97,10 @@ public class IsiPercobaan4d extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
     }
 }

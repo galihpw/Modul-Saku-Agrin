@@ -62,14 +62,14 @@ public class IsiPercobaan1B extends AppCompatActivity {
         Glide.with(this).load(R.drawable.ip1b).into(imageView);
 
         //kosong
-        TextView textView7 = (TextView) findViewById(R.id.textView7);
-        textView7.setText("\n");
+       /* TextView textView7 = (TextView) findViewById(R.id.textView7);
+        textView7.setText("\n");*/
 
        //TABEL
 
         //free space for landscape mode
-        TextView textView8 = (TextView) findViewById(R.id.textView8);
-        textView8.setText("\n");
+       /* TextView textView8 = (TextView) findViewById(R.id.textView8);
+        textView8.setText("\n");*/
 
         //Percobaan 1 (Tabel pertama)
         Button bForPeng = (Button) findViewById(R.id.bForPeng);

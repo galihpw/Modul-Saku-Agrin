@@ -58,13 +58,13 @@ public class IsiPercobaan1D extends AppCompatActivity {
         Glide.with(this).load(R.drawable.ip1d).into(imageView);
 
         //kosong
-        TextView textView7 = (TextView) findViewById(R.id.textView7);
-        textView7.setText("\n");
+    /*    TextView textView7 = (TextView) findViewById(R.id.textView7);
+        textView7.setText("\n");*/
 
         //free space for landscape mode
-        TextView textView8 = (TextView) findViewById(R.id.textView8);
+        /*TextView textView8 = (TextView) findViewById(R.id.textView8);
         textView8.setText("\t");
-
+*/
         //Percobaan 3 (Tabel ketiga)
         Button bForPeng = (Button) findViewById(R.id.bForPeng);
         //format pengamatan

@@ -60,8 +60,8 @@ public class IsiPercobaan2 extends AppCompatActivity {
         Glide.with(this).load(R.drawable.ip2).into(imageView);
 
         //kosong
-        TextView textView7 = (TextView) findViewById(R.id.textView7);
-        textView7.setText("\n");
+//        TextView textView7 = (TextView) findViewById(R.id.textView7);
+//        textView7.setText("\n");
 
         //tugas
         TextView textView9 = (TextView) findViewById(R.id.textView9);
@@ -76,8 +76,8 @@ public class IsiPercobaan2 extends AppCompatActivity {
                 "- Buat diagram proses pembuatan roti!");
 
         //free space
-        TextView textView10 = (TextView) findViewById(R.id.textView10);
-        textView10.setText(" ");
+     /*   TextView textView10 = (TextView) findViewById(R.id.textView10);
+        textView10.setText(" ");*/
 
         //Percobaan 2 (Tabel keempat)
         Button bForPeng = (Button) findViewById(R.id.bForPeng);

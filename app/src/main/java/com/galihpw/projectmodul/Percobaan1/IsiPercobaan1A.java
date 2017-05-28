@@ -59,8 +59,8 @@ public class IsiPercobaan1A extends AppCompatActivity {
 
 
         //kosong
-        TextView textView7 = (TextView) findViewById(R.id.textView7);
-        textView7.setText("\n");
+       /* TextView textView7 = (TextView) findViewById(R.id.textView7);
+        textView7.setText("\n");*/
     }
 
     @Override
