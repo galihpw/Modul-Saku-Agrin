@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#2c2c2e</color>
     <color name="colorAccent">#b0ff49</color>
     <color name="white_transparent">#d1ffffff</color>
+    <color name="Correct_Background">#b4b0ff49</color>
+    <color name="Wrong_Background">#b4ff4444</color>
 </resources>
