@@ -1,5 +1,6 @@
 package com.galihpw.projectmodul;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,6 +17,7 @@ public class ScoreActivity extends AppCompatActivity {
 
     int i = 0;
     TextView tScore, tBenar, tSalah;
+    Dialog dia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +61,19 @@ public class ScoreActivity extends AppCompatActivity {
                 Intent intent = new Intent(ScoreActivity.this,MainMenuActivity.class);
                 startActivity(intent);
                 finish();
+            }
+        });
+
+        Button bKunjaw = (Button) findViewById(R.id.bKunjaw);
+
+        bKunjaw.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dia = new Dialog(ScoreActivity.this);
+                dia.setContentView(R.layout.dia_kunjaw);
+                dia.setTitle("Kunci Jawaban");
+                dia.setCancelable(true);
+                dia.show();
             }
         });
     }

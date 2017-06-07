@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/carbon">
+    android:background="@drawable/background_quiz">
 
     <TextView
         android:id="@+id/textView13"
@@ -19,7 +18,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="cursive"
         android:text="Soal 9"
-        android:textColor="@android:color/background_light"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -48,28 +47,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="casual"
-            android:text="Suhu yang diaplikasikan untuk memanggang roti adalah …"
+            android:text="Suhu yang diaplikasikan untuk baking pada pembuatan roti adalah …"
             android:textAlignment="center"
-            android:textColor="@android:color/background_light"
-            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="99dp" />
     </FrameLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:id="@+id/linearLayout2"
-        android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout"
         app:layout_constraintVertical_bias="0.14999998">
 
@@ -84,10 +83,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:layout_weight="1"
+                android:buttonTint="@android:color/background_light"
                 android:fontFamily="casual"
                 android:text="a. 150°C"
-                android:textColor="@android:color/background_light"
-                android:buttonTint="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
                 tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="209dp" />
 
@@ -97,10 +97,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:layout_weight="1"
+                android:buttonTint="@android:color/background_light"
                 android:fontFamily="casual"
                 android:text="b. 170°C"
-                android:textColor="@android:color/background_light"
-                android:buttonTint="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
                 tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="260dp" />
 
@@ -109,10 +110,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:buttonTint="@android:color/background_light"
                 android:fontFamily="casual"
                 android:text="c. 180°C"
-                android:textColor="@android:color/background_light"
-                android:buttonTint="@android:color/background_light"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
                 tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="309dp" />
 

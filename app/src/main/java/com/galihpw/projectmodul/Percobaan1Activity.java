@@ -27,8 +27,6 @@ public class Percobaan1Activity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        Spanned text = Html.fromHtml("Uji <b>Boraks</b> <i>Sederhana</i>");
-
         //Menu 1
         Button bMenu1 = (Button) findViewById(R.id.bMenu1);
 

@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView imageView = (ImageView) findViewById(R.id.mptp);
 
-        Glide.with(this).load(R.drawable.mptp).into(imageView);
+        Glide.with(this).load(R.drawable.logo).into(imageView);
 
         Button bStart = (Button) findViewById(R.id.bStart);
 
