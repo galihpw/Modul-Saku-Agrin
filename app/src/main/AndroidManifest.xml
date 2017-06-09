@@ -95,11 +95,14 @@
         <activity
             android:name=".Percobaan1.TabelIsiPercobaan1c"
             android:label="Format Pengamatan"
-            android:screenOrientation="landscape"/>
-        <activity android:name=".Percobaan1.TabelIsiPercobaan1b"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Percobaan1.TabelIsiPercobaan1b"
             android:label="Format Pengamatan"
-            android:screenOrientation="landscape"/>
-
+            android:screenOrientation="landscape" />
+        <activity
+            android:label="Kunci Jawaban"
+            android:name=".KunjawActivity"/>
     </application>
 
 </manifest>
